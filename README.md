@@ -10,3 +10,5 @@ Give a file as parameter. For example - ./fdf map
    + #### NUM8 NUM2 - x
    + #### NUM4 NUM6 - y
    + #### NUM7 NUM9 - z
+- ### Change projection (parallel or central)
+   + #### space
