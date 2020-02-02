@@ -5,4 +5,7 @@ Give a file as parameter. For example - ./fdf map
 
 ## Control:
 - ### Movement
-  + left
+   - #### left
+   - #### right
+   - #### up
+   - #### down
