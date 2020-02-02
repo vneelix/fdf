@@ -6,13 +6,15 @@
 #    By: vneelix <vneelix@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/12/12 18:42:53 by vneelix           #+#    #+#              #
-#    Updated: 2019/12/21 11:43:02 by vneelix          ###   ########.fr        #
+#    Updated: 2020/02/02 13:47:47 by vneelix          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 VPATH = ./add_func ./read_file ./space_transforming
 
 INCL = fdf.h
+
+MLX = libmlx.a
 
 INCL_PATH = ./
 
@@ -29,12 +31,15 @@ NAME = fdf
 	gcc $(CFLAGS) $<
 
 $(NAME): $(OBJS)
-	gcc $(OBJS) -lm -lmlx -framework OpenGL -framework AppKit -o $(NAME)
+	$(MAKE) -C ./mlx/minilibx_macos_sierra
+	mv ./mlx/minilibx_macos_sierra/libmlx.a ./
+	$(MAKE) clean -C ./mlx/minilibx_macos_sierra
+	gcc $(OBJS) -lm -L./ $(MLX) -framework OpenGL -framework AppKit -o $(NAME)
 
 all: $(NAME)
 
 clean:
-	rm -f $(OBJS)
+	rm -f $(OBJS) $(MLX)
 
 fclean: clean
 	rm -f $(NAME)

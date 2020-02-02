@@ -6,7 +6,7 @@
 /*   By: vneelix <vneelix@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/13 12:10:51 by vneelix           #+#    #+#             */
-/*   Updated: 2019/12/17 17:08:29 by vneelix          ###   ########.fr       */
+/*   Updated: 2020/02/02 11:02:15 by vneelix          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@
 # include <unistd.h>
 # include <fcntl.h>
 # include <math.h>
-# include <mlx.h>
+# include "mlx.h"
 
 /*
 ** structs
