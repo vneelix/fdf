@@ -21,7 +21,7 @@ INCL_PATH = ./
 OBJS = main.o ft_drawline.o keys_events.o plot_gen.o ft_bzero.o ft_memcpy.o \
 ft_strjoin.o ft_strlen.o ft_strsplit.o ft_strtol.o file_valid.o ft_getfile.o ft_getp.o mlx_prepare.o ft_transform.o transform_manager.o
 
-CFLAGS = -Wall -Wextra -Werror -c -I$(INCL_PATH)
+CFLAGS = -Wall -Wextra -Werror -c -O2 -I$(INCL_PATH)
 
 NAME = fdf
 
