@@ -21,3 +21,7 @@ This project is about creating a simplified 3D graphic representation of a relie
    + #### space
 - ### Change height
    + #### PGUP PGDOWN
+- ### Scale
+   + #### + - (NUM)
+- ### Reset
+   + #### enter
