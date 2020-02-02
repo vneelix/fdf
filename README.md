@@ -4,4 +4,5 @@ This project is about creating a simplified 3D graphic representation of a relie
 Give a file as parameter. For example - ./fdf map
 
 ## Control:
-- movement
+- ### Movement
+  + left
