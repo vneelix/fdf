@@ -10,6 +10,12 @@ This project is about creating a simplified 3D graphic representation of a relie
 0 5 5 0\
 0 0 0 0
 
+<figure>
+	<img src="pic/mandelbrot.png" />
+	<img src="pic/mars.png" />
+	<img src="pic/pyramide.png" />
+</figure>
+
 ## Control:
 - ### Movement
    + #### left right up down
