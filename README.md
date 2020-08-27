@@ -1,5 +1,5 @@
-# fdf ONLY MACOS
-This project is about creating a simplified 3D graphic representation of a relief landscape.
+# fdf
+This project is about creating a simplified 3D graphic representation of a relief landscape (ONLY MACOS).
 
 - Give a file as parameter. For example - ./fdf map.
 - You can set the color of points in the file. For example - 0,0xFFFAC2 or 0,0xFFABCD24.
