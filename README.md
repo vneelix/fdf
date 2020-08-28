@@ -1,5 +1,5 @@
 # fdf
-This project is about creating a simplified 3D graphic representation of a relief landscape (ONLY MACOS).
+This project is about creating a simplified 3D graphic representation of a relief landscape (SDL2).
 
 - Give a file as parameter. For example - ./fdf map.
 - You can set the color of points in the file. For example - 0,0xFFFAC2 or 0,0xFFABCD24.
@@ -19,11 +19,8 @@ This project is about creating a simplified 3D graphic representation of a relie
 ## Control:
 - ### Movement
    + #### left right up down
-- ### Rotation
-   + #### NUM8 NUM2 - x
-   + #### NUM4 NUM6 - y
-   + #### NUM7 NUM9 - z
-- ### Change projection (parallel or Perspective)
+- ### Rotation (Left click and mouse moving)
+- ### Change projection (Parallel or perspective)
    + #### space
 - ### Change height
    + #### PGUP PGDOWN
