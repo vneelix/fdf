@@ -23,7 +23,7 @@ This project is about creating a simplified 3D graphic representation of a relie
 - ### Change projection (Parallel or perspective)
    + #### space
 - ### Change height
-   + #### PGUP PGDOWN
+   + #### RSHIFT RCTRL
 - ### Scale
    + #### + - (NUM)
 - ### Reset
